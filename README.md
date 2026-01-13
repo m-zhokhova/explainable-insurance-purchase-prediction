@@ -1,38 +1,38 @@
 # Explainable Insurance Purchase Prediction
 
-This project addresses the prediction of health insurance ownership using demographic and socio-economic data. The primary goal is not only to achieve strong predictive performance, but also to ensure interpretability, with a clear focus on understanding why the model produces specific predictions.
+This project studies the prediction of health insurance ownership using demographic and socio-economic data. The focus is on building a reliable predictive model while keeping the reasoning behind its predictions transparent and interpretable.
 
-## Project overview
+## Overview
 
-The analysis follows a structured and transparent workflow:
+The workflow consists of:
 
-- Exploratory data analysis to examine variable distributions, relationships, and data quality issues  
-- Explicit preprocessing steps informed by observations from the exploratory analysis  
-- Training and comparison of multiple model families, including logistic regression, decision trees, random forests, and gradient boosting  
-- Selection of XGBoost as the primary model based on predictive performance  
-- Post-hoc explainability using SHAP to provide both global and local explanations of model predictions  
+- Exploratory data analysis to understand distributions, relationships, and data quality  
+- Preprocessing steps motivated by findings from the exploratory analysis  
+- Training and comparison of several model types, including logistic regression, decision trees, random forests, and gradient boosting  
+- Selection of XGBoost as the primary model based on test-set performance  
+- Post-hoc explainability using SHAP for global and individual-level explanations  
 
-The explainability analysis connects model behaviour back to patterns observed during exploratory analysis, supporting the use of the model as a decision-support tool rather than a black-box predictor.
+The aim is to link model behaviour back to observable patterns in the data, rather than treating the model as a black box.
 
 ## Models
 
-The following models are included in the analysis:
+The following models are included:
 
-- Logistic Regression (baseline linear model)  
-- Decision Tree (shallow, interpretable by design)  
-- Random Forest (non-linear ensemble model)  
-- XGBoost (gradient-boosted trees, selected as the primary model)  
+- Logistic Regression as a baseline  
+- A shallow Decision Tree for interpretability  
+- Random Forest as a non-linear ensemble model  
+- XGBoost as the primary model  
 
-Models are evaluated using ROC-AUC, with XGBoost achieving the strongest performance on the test set.
+Models are evaluated using ROC-AUC. XGBoost achieves the highest score on the test set.
 
 ## Explainability
 
-Model interpretability is addressed using SHAP:
+Model explanations are produced using SHAP:
 
-- Global explanations identify the most influential features across the dataset  
-- Local explanations illustrate how individual feature values contribute to specific predictions  
+- Global explanations highlight the most influential features  
+- Local explanations show how feature values affect individual predictions  
 
-Feature attributions are used to analyse model behaviour and should not be interpreted causally.
+Feature attributions describe model behaviour and should not be interpreted causally.
 
 ## Technologies
 
@@ -45,5 +45,5 @@ Feature attributions are used to analyse model behaviour and should not be inter
 
 ## Notes
 
-- The dataset used in this project is not included in the repository  
-- All results are based on observational data and are intended for analytical and decision-support purposes  
+- The dataset is not included in this repository  
+- Results are based on observational data and are intended for analysis and decision support  

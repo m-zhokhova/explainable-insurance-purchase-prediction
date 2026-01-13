@@ -42,8 +42,3 @@ Feature attributions describe model behaviour and should not be interpreted caus
 - XGBoost  
 - SHAP  
 - matplotlib, seaborn  
-
-## Notes
-
-- The dataset is not included in this repository  
-- Results are based on observational data and are intended for analysis and decision support  

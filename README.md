@@ -2,6 +2,9 @@
 
 This project studies the prediction of health insurance ownership using demographic and socio-economic data. The focus is on building a reliable predictive model while keeping the reasoning behind its predictions transparent and interpretable.
 
+Notebook can be found here: 
+https://github.com/m-zhokhova/explainable-insurance-purchase-prediction/blob/main/notebooks/01_anchor_explainable_insurance.ipynb
+
 ## Overview
 
 The workflow consists of:

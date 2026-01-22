@@ -1,15 +1,15 @@
 # Explainable Insurance Purchase Prediction  
 **Model Comparison + SHAP Explainability**
 
+## My Project Portfolio:
+https://github.com/m-zhokhova/data-science-portfolio
+
+---
+
 ## Overview
 
 This project predicts whether a customer holds health insurance using demographic and socio-economic features.
 The goal is not only predictive performance, but also **clear, model-grounded explanations** of what drives predictions.
-
----
-
-## My Project Portfolio:
-https://github.com/m-zhokhova/data-science-portfolio
 
 ---
 

@@ -8,6 +8,11 @@ The goal is not only predictive performance, but also **clear, model-grounded ex
 
 ---
 
+## My Project Portfolio:
+https://github.com/m-zhokhova/data-science-portfolio
+
+---
+
 ## Dataset
 
 - **Rows / columns:** 72,458 × 15  
